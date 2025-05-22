@@ -19,9 +19,6 @@ venv/
 .DS_Store
 Thumbs.db
 
-# Ignorar imágenes (pero mantener la carpeta vacía de iconos)
-img/iconos/*
-!img/iconos/.gitkeep
 
 # Omitir todo excepto lo que sí queremos subir
 !.gitignore
