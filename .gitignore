@@ -1,0 +1,36 @@
+# Ignorar carpetas generadas automáticamente
+build/
+dist/
+
+# Ignorar ejecutables y paquetes
+*.exe
+*.pkg
+
+# Ignorar archivos bytecode de Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignorar entornos virtuales
+venv/
+.env
+
+# Ignorar configuraciones de sistema
+.DS_Store
+Thumbs.db
+
+# Ignorar imágenes (pero mantener la carpeta vacía de iconos)
+img/iconos/*
+!img/iconos/.gitkeep
+
+# Omitir todo excepto lo que sí queremos subir
+!.gitignore
+!main.py
+!main.spec
+!cal-cucho.spec
+!modulos/
+!modulos/*.py
+!ui/
+!ui/main_window.py
+!img/
+!img/iconos/
